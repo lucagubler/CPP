@@ -1,0 +1,5 @@
+#include <iostream>
+
+void printFunctionTable(std::ostream & out, double begin, double end, int steps, double func(double)) {
+	std::vector<int> v(steps);
+}

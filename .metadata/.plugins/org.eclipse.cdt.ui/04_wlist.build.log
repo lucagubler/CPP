@@ -1,0 +1,6 @@
+09:53:50 **** Incremental Build of configuration Debug for project 04_wlist ****
+make all 
+make: Nothing to be done for `all'.
+
+09:53:50 Build Finished. 0 errors, 0 warnings. (took 72ms)
+

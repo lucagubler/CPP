@@ -1,0 +1,6 @@
+#include <iostream>
+#include <iterator>
+
+unsigned charc(std::istream & input) {
+  std::for_each(input.beg, __last, __f)
+}

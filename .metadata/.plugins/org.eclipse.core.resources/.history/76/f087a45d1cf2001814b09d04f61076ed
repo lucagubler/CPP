@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+
+unsigned charc(std::istream & input) {
+	int count{};
+	char c{};
+	while(std::cin >> c) {
+		++count;
+	}
+	return count;
+}
+
+int main() {
+	charc(std::cin);
+}

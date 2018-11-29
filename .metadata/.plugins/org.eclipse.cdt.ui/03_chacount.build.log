@@ -1,0 +1,6 @@
+09:27:57 **** Incremental Build of configuration Debug for project 03_chacount ****
+make all 
+make: Nothing to be done for `all'.
+
+09:27:57 Build Finished. 0 errors, 0 warnings. (took 76ms)
+

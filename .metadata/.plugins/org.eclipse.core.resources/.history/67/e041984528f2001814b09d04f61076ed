@@ -1,0 +1,7 @@
+#include <iostream>
+#include <vector>
+
+void printFunctionTable(std::ostream & out, double begin, double end, int steps, double func(double)) {
+	std::vector<int> v(steps);
+	double const delta { (end - begin) / (steps - 1)};
+}

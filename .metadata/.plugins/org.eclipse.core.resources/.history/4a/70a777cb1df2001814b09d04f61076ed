@@ -1,0 +1,5 @@
+#include <iterator>
+
+int main() {
+	using in = std::istream_iterator<char>;
+}
