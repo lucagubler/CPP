@@ -1,0 +1,10 @@
+#include "Switch.h"
+#include <ostream>
+
+enum class Switch::togglestate:unsigned char {
+	off, on, blinking
+};
+
+Switch::Switch() : state{togglestate::off} {
+
+}

@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+unsigned charc(std::string input) {
+//	unsigned charc(std::istream & input) {
+	int count{};
+	char c{};
+	while(std::cin >> c) {
+		++count;
+	}
+
+	std::cout << "Number of char: " << count << '\n';
+}
+
+int main() {
+	charc("Hallo Welt");
+}

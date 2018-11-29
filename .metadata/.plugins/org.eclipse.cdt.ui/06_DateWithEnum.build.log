@@ -1,0 +1,19 @@
+14:03:54 **** Incremental Build of configuration Debug for project 06_DateWithEnum ****
+make all 
+Building file: ../Date.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"Date.d" -MT"Date.o" -o "Date.o" "../Date.cpp"
+Finished building: ../Date.cpp
+ 
+Building target: 06_DateWithEnum
+Invoking: MacOS X C++ Linker
+g++  -o "06_DateWithEnum"  ./Date.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [06_DateWithEnum] Error 1
+
+14:03:54 Build Failed. 2 errors, 0 warnings. (took 863ms)
+

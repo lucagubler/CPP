@@ -1,0 +1,20 @@
+14:21:27 **** Incremental Build of configuration Debug for project 06_TestToggleButton ****
+make all 
+Building file: ../src/Switch.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1z -I"/Users/Luca/workspace_cpp/06_TestToggleButton/cute" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"src/Switch.d" -MT"src/Switch.o" -o "src/Switch.o" "../src/Switch.cpp"
+Finished building: ../src/Switch.cpp
+ 
+Building file: ../src/Test.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1z -I"/Users/Luca/workspace_cpp/06_TestToggleButton/cute" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"src/Test.d" -MT"src/Test.o" -o "src/Test.o" "../src/Test.cpp"
+Finished building: ../src/Test.cpp
+ 
+Building target: 06_TestToggleButton
+Invoking: MacOS X C++ Linker
+g++  -o "06_TestToggleButton"  ./src/Switch.o ./src/Test.o   
+Finished building target: 06_TestToggleButton
+ 
+14:21:38 **** Incremental Build of configuration Debug for project 06_TestToggleButton ****
+make all 
+make: Nothing to be done for `all'.

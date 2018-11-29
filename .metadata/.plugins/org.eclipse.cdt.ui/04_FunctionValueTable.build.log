@@ -1,0 +1,16 @@
+10:44:01 **** Incremental Build of configuration Debug for project 04_FunctionValueTable ****
+make all 
+Building file: ../funcval.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -MMD -MP -MF"funcval.d" -MT"funcval.o" -o "funcval.o" "../funcval.cpp"
+Finished building: ../funcval.cpp
+ 
+Building target: lib04_FunctionValueTable.a
+Invoking: GCC Archiver
+ar -r  "lib04_FunctionValueTable.a"  ./funcval.o   
+ar: creating archive lib04_FunctionValueTable.a
+Finished building target: lib04_FunctionValueTable.a
+ 
+
+10:44:02 Build Finished. 0 errors, 0 warnings. (took 807ms)
+

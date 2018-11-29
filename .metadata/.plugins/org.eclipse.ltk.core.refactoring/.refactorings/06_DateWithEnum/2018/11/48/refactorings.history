@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;06_DateWithEnum/date.cpp&apos; to &apos;Date.cpp&apos;" description="Rename resource &apos;date.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="date.cpp" name="Date.cpp" stamp="1543323800396" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;06_DateWithEnum/date.h&apos; to &apos;Date.h&apos;" description="Rename resource &apos;date.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="date.h" name="Date.h" stamp="1543323807288" updateReferences="true"/>
+</session>

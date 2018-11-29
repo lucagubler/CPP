@@ -1,0 +1,9 @@
+#include <iostream>
+#include <iterator>
+#include <algorithm>
+
+unsigned charc(std::istream & input) {
+	int count{};
+	std::for_each(std::begin(input), std::end(input), count++);
+
+}
