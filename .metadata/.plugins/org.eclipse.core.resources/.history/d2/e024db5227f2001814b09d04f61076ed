@@ -1,5 +1,0 @@
-#include <iostream>
-
-int printFunctionTable(std::ostream & out, double begin, double end, int steps, double func(double)) {
-	return 1;
-}

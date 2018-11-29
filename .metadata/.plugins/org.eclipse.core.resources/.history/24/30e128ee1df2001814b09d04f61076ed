@@ -1,7 +1,0 @@
-#include <iterator>
-#include <iostream>
-
-int main() {
-	using in = std::istream_iterator<char>;
-	std::cout << std::distance(in{std::cin},_in);
-}
