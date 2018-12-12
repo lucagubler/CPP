@@ -103,7 +103,7 @@ void test_index_operator_with_positive_indices() {
 		ASSERT_EQUALM(message, expected_value, actual_value);
 	}
 }
-
+/*
 void test_index_operator_with_negative_indices() {
 	using namespace std::string_literals;
 	indexableSet<std::string> const champions { "Yankees", "Giants", "Cardinals", "Sox", "Royals", "Cubs" };
@@ -182,7 +182,7 @@ void test_elements_in_iterator_range_with_custom_functor() {
 	ASSERT_EQUAL_RANGESM("An indexableSet with supplied casless compare functor is expected to contain the elements in casless lexicographical order",
 				std::begin(expected), std::end(expected), std::begin(champions), std::end(champions));
 }
-
+*/
 bool runAllTests(int argc, char const *argv[]) {
 	cute::suite constructor_tests { };
 	constructor_tests.push_back(CUTE(test_default_constructed_indexable_set_is_empty));
@@ -196,7 +196,7 @@ bool runAllTests(int argc, char const *argv[]) {
 	constructor_tests.push_back(CUTE(test_at_with_too_large_index));
 	constructor_tests.push_back(CUTE(test_at_with_too_small_index));
 	constructor_tests.push_back(CUTE(test_index_operator_with_positive_indices));
-	constructor_tests.push_back(CUTE(test_index_operator_with_negative_indices));
+	/*constructor_tests.push_back(CUTE(test_index_operator_with_negative_indices));
 	constructor_tests.push_back(CUTE(test_index_operator_with_too_large_index));
 	constructor_tests.push_back(CUTE(test_index_operator_with_too_small_index));
 	constructor_tests.push_back(CUTE(test_front_on_empty_throws));
@@ -206,7 +206,7 @@ bool runAllTests(int argc, char const *argv[]) {
 	constructor_tests.push_back(CUTE(test_elements_in_iterator_range_with_custom_comparator));
 	constructor_tests.push_back(CUTE(test_elements_returned_by_index_and_at_are_returned_by_lvalue_reference));
 	constructor_tests.push_back(CUTE(test_elements_returned_by_front_and_back_are_returned_by_lvalue_reference));
-	constructor_tests.push_back(CUTE(test_elements_in_iterator_range_with_custom_functor));
+	constructor_tests.push_back(CUTE(test_elements_in_iterator_range_with_custom_functor));*/
 
 	cute::xml_file_opener xmlfile(argc, argv);
 	cute::xml_listener<cute::ide_listener<>> lis(xmlfile.out);

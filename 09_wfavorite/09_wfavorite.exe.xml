@@ -1,0 +1,16 @@
+<testsuites>
+	<testsuite name="AllTests" tests="4">
+		<testcase classname="AllTests" name="test_wfavorite_for_empty_input_has_no_output"/>
+		<testcase classname="AllTests" name="test_wfavorite_for_fliegen"/>
+		<testcase classname="AllTests" name="test_lorem_ipsum">
+			<failure message="..\src\Test.cpp:62 test_lorem_ipsum: &quot;vitae:11\\n&quot; &quot;Ut:9\\n&quot; &quot;sed:8\\n&quot; &quot;augue:7\\n&quot; &quot;quis:7\\n&quot; &quot;urna:7\\n&quot; &quot;felis:6\\n&quot; &quot;id:6\\n&quot; &quot;nunc:6\\n&quot; &quot;tincidunt:6\\n&quot; &quot;vel:6\\n&quot; &quot;a:5\\n&quot; &quot;Etiam:5\\n&quot; &quot;hendrerit:5\\n&quot; &quot;In:5\\n&quot; &quot;nisi:5\\n&quot; &quot;Phasellus:5\\n&quot; &quot;turpis:5\\n&quot; &quot;ac:4\\n&quot; &quot;amet:4\\n&quot; == output.str() expected:	vitae:11\nUt:9\nsed:8\naugue:7\nquis:7\nurna:7\nfelis:6\nid:6\nnunc:6\ntincidunt:6\nvel:6\na:5\nEtiam:5\nhendrerit:5\nIn:5\nnisi:5\nPhasellus:5\nturpis:5\nac:4\namet:4\n	but was:		">
+test_lorem_ipsum: &quot;vitae:11\\n&quot; &quot;Ut:9\\n&quot; &quot;sed:8\\n&quot; &quot;augue:7\\n&quot; &quot;quis:7\\n&quot; &quot;urna:7\\n&quot; &quot;felis:6\\n&quot; &quot;id:6\\n&quot; &quot;nunc:6\\n&quot; &quot;tincidunt:6\\n&quot; &quot;vel:6\\n&quot; &quot;a:5\\n&quot; &quot;Etiam:5\\n&quot; &quot;hendrerit:5\\n&quot; &quot;In:5\\n&quot; &quot;nisi:5\\n&quot; &quot;Phasellus:5\\n&quot; &quot;turpis:5\\n&quot; &quot;ac:4\\n&quot; &quot;amet:4\\n&quot; == output.str() expected:	vitae:11\nUt:9\nsed:8\naugue:7\nquis:7\nurna:7\nfelis:6\nid:6\nnunc:6\ntincidunt:6\nvel:6\na:5\nEtiam:5\nhendrerit:5\nIn:5\nnisi:5\nPhasellus:5\nturpis:5\nac:4\namet:4\n	but was:		
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="test_chapter_six">
+			<failure message="..\src\Test.cpp:88 test_chapter_six: &quot;the:334\\n&quot; &quot;a:226\\n&quot; &quot;to:161\\n&quot; &quot;of:115\\n&quot; &quot;iterator:104\\n&quot; &quot;and:101\\n&quot; &quot;is:93\\n&quot; &quot;std:91\\n&quot; &quot;that:89\\n&quot; &quot;in:88\\n&quot; &quot;can:85\\n&quot; &quot;function:84\\n&quot; &quot;For:73\\n&quot; &quot;as:68\\n&quot; &quot;value:66\\n&quot; &quot;be:65\\n&quot; &quot;type:65\\n&quot; &quot;operator:63\\n&quot; &quot;With:62\\n&quot; &quot;return:54\\n&quot; == output.str() expected:	the:334\na:226\nto:161\nof:115\niterator:104\nand:101\nis:93\nstd:91\nthat:89\nin:88\ncan:85\nfunction:84\nFor:73\nas:68\nvalue:66\nbe:65\ntype:65\noperator:63\nWith:62\nreturn:54\n	but was:		">
+test_chapter_six: &quot;the:334\\n&quot; &quot;a:226\\n&quot; &quot;to:161\\n&quot; &quot;of:115\\n&quot; &quot;iterator:104\\n&quot; &quot;and:101\\n&quot; &quot;is:93\\n&quot; &quot;std:91\\n&quot; &quot;that:89\\n&quot; &quot;in:88\\n&quot; &quot;can:85\\n&quot; &quot;function:84\\n&quot; &quot;For:73\\n&quot; &quot;as:68\\n&quot; &quot;value:66\\n&quot; &quot;be:65\\n&quot; &quot;type:65\\n&quot; &quot;operator:63\\n&quot; &quot;With:62\\n&quot; &quot;return:54\\n&quot; == output.str() expected:	the:334\na:226\nto:161\nof:115\niterator:104\nand:101\nis:93\nstd:91\nthat:89\nin:88\ncan:85\nfunction:84\nFor:73\nas:68\nvalue:66\nbe:65\ntype:65\noperator:63\nWith:62\nreturn:54\n	but was:		
+			</failure>
+		</testcase>
+	</testsuite>
+</testsuites>

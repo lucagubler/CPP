@@ -5,6 +5,9 @@
 #include "cute_runner.h"
 #include <iomanip>
 #include <cmath>
+#include <ios>
+#include <sstream>
+#include <string>
 
 double square(double x){
 	return x*x;

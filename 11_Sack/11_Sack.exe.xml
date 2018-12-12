@@ -1,0 +1,12 @@
+<testsuites>
+	<testsuite name="AllTests" tests="8">
+		<testcase classname="AllTests" name="testDefaultSackIsEmpty"/>
+		<testcase classname="AllTests" name="testDefaultSackHasSizeZero"/>
+		<testcase classname="AllTests" name="testSackIsNotEmptyAfterInsertingAnElement"/>
+		<testcase classname="AllTests" name="testSizeOfSackIsOneAfterInsertingAnElement"/>
+		<testcase classname="AllTests" name="testGetOutReturnsElement"/>
+		<testcase classname="AllTests" name="testGetOutThrowsIfSackIsEmpty"/>
+		<testcase classname="AllTests" name="testSackIsEmptyAfterGettingOutLastElement"/>
+		<testcase classname="AllTests" name="testSackIsZeroAfterGettingOutLastElement"/>
+	</testsuite>
+</testsuites>

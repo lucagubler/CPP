@@ -1,0 +1,14 @@
+<testsuites>
+	<testsuite name="Indexable Set Tests" tests="10">
+		<testcase classname="Indexable Set Tests" name="test_default_constructed_indexable_set_is_empty"/>
+		<testcase classname="Indexable Set Tests" name="test_iterator_constructor_resulting_size"/>
+		<testcase classname="Indexable Set Tests" name="test_initializer_list_constructor"/>
+		<testcase classname="Indexable Set Tests" name="test_copy_constructor"/>
+		<testcase classname="Indexable Set Tests" name="test_elements_in_iterator_range"/>
+		<testcase classname="Indexable Set Tests" name="test_elements_in_reverse_iterator_range"/>
+		<testcase classname="Indexable Set Tests" name="test_at_with_positive_indices"/>
+		<testcase classname="Indexable Set Tests" name="test_at_with_negative_indices"/>
+		<testcase classname="Indexable Set Tests" name="test_at_with_too_small_index"/>
+		<testcase classname="Indexable Set Tests" name="test_at_with_too_large_index"/>
+	</testsuite>
+</testsuites>
